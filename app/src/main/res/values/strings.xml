@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">DemoDAM</string>
+    <string name="title_activity_login">Đăng Nhập</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Tài Khoản</string>
+    <string name="prompt_password">Mật Khẩu</string>
+    <string name="prompt_passwor">Nhập Lại Mật Khẩu</string>
+    <string name="action_sign_in">Đăng Nhập</string>
+    <string name="action_sign_in_short">Đăng Ký</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="notify_empty_username">Nhập Tài Khoản</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nguyễn Hoàng Bảo Hân</string>
+    <string name="nav_header_subtitle">hoanghan@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Người Dùng</string>
+    <string name="action_theloai">Thể Loại</string>
+    <string name="them">Thêm Người Dùng</string>
+    <string name="notify_empty_password">Nhập Mật Khẩu</string>
+    <string name="title_activity_sign">Đăng Ký</string>
+    <string name="notify_wrong_password">Wrong Username or Passwrod. Please tell me why!!!</string>
+
+    <string name="title_activity_act_nguoi_dung">Người Dùng</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Themtheloai">Thêm Thể Loại</string>
+    <string name="matheloai">Mã Thể Loại</string>
+    <string name="tentheloai">Tên Thể Loại</string>
+    <string name="vitritheloai">Vị Trí Thể Loại</string>
+    <string name="mota">Mô Tả</string>
+    <string name="xacnhan">Xác Nhận</string>
+    <string name="huy">Hủy</string>
+
+    <string name="title_activity_act_the_loai">Thể Loại</string>
+    <string name="theloai">Thể Loại</string>
+    <string name="themnguoidung">Thêm Người Dùng</string>
+    <string name="title_add_bills">Create Bill</string>
+    <string name="action_hoadonchitiet">Hóa Đơn Chi Tiết</string>
+    <string name="action_themsach">Thêm Sách</string>
+    <string name="action_them">Thêm</string>
+    <string name="action_hoadon">Hóa Đơn</string>
+    <string name="themhoadon">Thêm Hóa Đơn</string>
+
+</resources>

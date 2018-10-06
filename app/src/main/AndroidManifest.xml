@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tgs.demodam">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HelloActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignActivity"
+            android:label="@string/title_activity_sign"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar1" />
+        <activity
+            android:name=".NguoiDungActivity"
+            android:label="@string/themnguoidung"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActNguoiDung"
+            android:label="@string/title_activity_act_nguoi_dung"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".ActTheLoai"
+            android:label="@string/title_activity_act_the_loai"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity android:name=".ActHoaDonChiTiet" />
+        <activity android:name=".ActThemSach" />
+        <activity android:name=".ActListBook" />
+        <activity android:name=".ActHoaDon" />
+        <activity android:name=".ActListHoaDon" />
+        <activity android:name=".ActListHoaDonChiTietByID"></activity>
+    </application>
+
+</manifest>

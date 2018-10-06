@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="47dp"
+        android:src="@drawable/sach" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="1" />
+
+
+        <TextView
+            android:id="@+id/tvName"
+            android:maxLines="1"
+            android:ellipsize="end"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thể Loại"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnEdit"
+        android:layout_width="53dp"
+        android:layout_height="47dp"
+        android:src="@android:drawable/ic_menu_edit" />
+
+
+    <ImageView
+        android:id="@+id/btnDel"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/ic_close" />
+
+
+
+
+</LinearLayout>
